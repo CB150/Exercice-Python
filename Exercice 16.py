@@ -4,7 +4,7 @@ def distance_hamming(str1,str2):
 	cpt=0
 	#si la taille d premier mot n'est pas égale à celle du deuxième
 	if (len(str1)!=len(str2)):
-		#le programme renvoie la phrase ci-dessous et met fin au programme.
+		#Renvoie la phrase ci-dessous et met fin au programme.
 		return("Les mots ne sont pas de la même longueur")
 	else:
 		for i in range(len(str1)):
