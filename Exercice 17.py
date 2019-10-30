@@ -5,8 +5,8 @@ def palindrome(str):
 	if str == [] or len(str) == 1:
 		return True
 	else:
-		#sinon, si le premier caractère du paramètre est égale au dernier caractère,
-		if str[0] == str[len(str) - 1]: alors on enlève le premier et le dernier caractère de la liste et on relance la fonction
+		#sinon, si le premier caractère du paramètre est égale au dernier caractère
+		if str[0] == str[len(str) - 1]: #alors on enlève le premier et le dernier caractère de la liste et on relance la fonction
 			str = str[1:]
 			str = str[:-1]
 			return (palindrome(str))
