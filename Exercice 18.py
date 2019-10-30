@@ -33,14 +33,14 @@ pervenche="AAGCTCGGGAGGTGGCCAGGCGGCAGGAAGGCGCACCCCCCCAGTACTCCGCGCGCCGGGACAGAATGC
 leblanc="CTGCAGGAACTTCTTCTGGAAGTACTTCTCCTCCTGCAAATAAAACCTCACCCATGAATGCTCACGCAAG"
 
 nomcoupable=["rose","moutarde","pervenche","leblanc"]
-listeCoupable=[rose,moutarde,pervenche,leblanc]
+listeCoupables=[rose,moutarde,pervenche,leblanc]
 
 premier="CATA"
 deuxieme="ATGC"
 
 
 for i in range (len(listeCoupable)):
-	print(nomcoupable[i]," ",trouverLeCoupableIte(listeCoupable[i],premier,deuxieme))
+	print(nomcoupable[i]," ",trouverLeCoupableIte(listeCoupables[i],premier,deuxieme))
 
 
 
